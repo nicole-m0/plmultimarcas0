@@ -70,27 +70,30 @@
 
   <main id="conteudo">
     <section class="hero" id="inicio" aria-labelledby="hero-title">
-      <figure class="hero__media">
-        <img
-          src="images/look-camiseta-marrom-840.webp"
-          srcset="images/look-camiseta-marrom-480.webp 480w, images/look-camiseta-marrom-840.webp 840w"
-          sizes="(min-width: 960px) 50vw, 100vw"
-          width="840" height="1527"
-          fetchpriority="high"
-          alt="Modelo em frente à vitrine da PL Multimarcas vestindo camiseta marrom com detalhes brancos, bermuda cargo branca e chinelo slide preto">
-        <figcaption class="hero__caption">Camiseta Luminous · Bermuda cargo</figcaption>
-      </figure>
+      <!-- Fachada da loja: enquadramento ajustado em style.css (--hero-pos) -->
+      <img
+        class="hero__bg"
+        src="images/fachada-974.webp"
+        srcset="images/fachada-640.webp 640w, images/fachada-974.webp 974w"
+        sizes="(min-width: 960px) 64vw, 100vw"
+        width="974" height="1024"
+        fetchpriority="high"
+        alt="Fachada da loja PL Multimarcas em Oeiras, Piauí">
 
-      <div class="hero__content">
-        <p class="eyebrow eyebrow--light">PL Multimarcas · Oeiras – PI</p>
-        <h1 class="hero__title" id="hero-title">Estilo que <span>combina com você.</span></h1>
-        <p class="hero__lead">Moda masculina, calçados e fragrâncias para completar seu visual.</p>
-        <div class="hero__actions">
-          <a class="btn btn--gold" href="#contato" data-wa>
-            <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
-            Chamar no WhatsApp
-          </a>
-          <a class="btn btn--outline-light" href="#produtos">Ver produtos</a>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <img class="hero__logo" src="images/logo-192.webp" srcset="images/logo-192.webp 192w, images/logo-320.webp 320w" sizes="(min-width: 960px) 112px, 84px" width="112" height="112" alt="">
+          <h1 class="hero__title" id="hero-title">PL <span>Multimarcas</span></h1>
+          <p class="eyebrow eyebrow--light">Moda masculina · Oeiras – PI</p>
+          <p class="hero__tagline">Estilo que combina com você.</p>
+          <p class="hero__lead">Moda masculina, calçados e fragrâncias para completar seu estilo.</p>
+          <div class="hero__actions">
+            <a class="btn btn--gold" href="#contato" data-wa>
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+              Chamar no WhatsApp
+            </a>
+            <a class="btn btn--outline-light" href="#produtos">Ver produtos</a>
+          </div>
         </div>
       </div>
     </section>
@@ -180,20 +183,24 @@
         </header>
 
         <ul class="looks">
+          <li class="look look--feature reveal">
+            <img src="images/look-camiseta-marrom-840.webp" srcset="images/look-camiseta-marrom-480.webp 480w, images/look-camiseta-marrom-840.webp 840w" sizes="(min-width: 960px) 19vw, 92vw" width="840" height="1527" loading="lazy" alt="Modelo em frente à vitrine da PL Multimarcas vestindo camiseta marrom com detalhes brancos, bermuda cargo branca e chinelo slide preto">
+            <p class="look__title">Camiseta Luminous &amp; bermuda cargo</p>
+          </li>
           <li class="look reveal">
-            <img src="images/look-polo-preta-720.webp" srcset="images/look-polo-preta-400.webp 400w, images/look-polo-preta-720.webp 720w" sizes="(min-width: 960px) 23vw, 46vw" width="720" height="1309" loading="lazy" alt="Modelo vestindo camisa polo preta com gola listrada e calça jeans clara com recortes">
+            <img src="images/look-polo-preta-720.webp" srcset="images/look-polo-preta-400.webp 400w, images/look-polo-preta-720.webp 720w" sizes="(min-width: 960px) 19vw, 46vw" width="720" height="1309" loading="lazy" alt="Modelo vestindo camisa polo preta com gola listrada e calça jeans clara com recortes">
             <p class="look__title">Polo preta &amp; jeans destroyed</p>
           </li>
           <li class="look reveal">
-            <img src="images/look-polo-caramelo-720.webp" srcset="images/look-polo-caramelo-400.webp 400w, images/look-polo-caramelo-720.webp 720w" sizes="(min-width: 960px) 23vw, 46vw" width="720" height="1309" loading="lazy" alt="Modelo vestindo camisa polo caramelo, bermuda cinza e tênis branco">
+            <img src="images/look-polo-caramelo-720.webp" srcset="images/look-polo-caramelo-400.webp 400w, images/look-polo-caramelo-720.webp 720w" sizes="(min-width: 960px) 19vw, 46vw" width="720" height="1309" loading="lazy" alt="Modelo vestindo camisa polo caramelo, bermuda cinza e tênis branco">
             <p class="look__title">Polo caramelo &amp; bermuda cinza</p>
           </li>
           <li class="look reveal">
-            <img src="images/look-polo-branca-720.webp" srcset="images/look-polo-branca-400.webp 400w, images/look-polo-branca-720.webp 720w" sizes="(min-width: 960px) 23vw, 46vw" width="720" height="1309" loading="lazy" alt="Modelo vestindo camisa polo off-white, bermuda marrom e tênis branco">
+            <img src="images/look-polo-branca-720.webp" srcset="images/look-polo-branca-400.webp 400w, images/look-polo-branca-720.webp 720w" sizes="(min-width: 960px) 19vw, 46vw" width="720" height="1309" loading="lazy" alt="Modelo vestindo camisa polo off-white, bermuda marrom e tênis branco">
             <p class="look__title">Polo off-white &amp; bermuda marrom</p>
           </li>
           <li class="look reveal">
-            <img src="images/look-camiseta-cinza-720.webp" srcset="images/look-camiseta-cinza-400.webp 400w, images/look-camiseta-cinza-720.webp 720w" sizes="(min-width: 960px) 23vw, 46vw" width="720" height="1310" loading="lazy" alt="Modelo vestindo camiseta cinza Luminous, bermuda jeans com rasgos e chinelo slide preto">
+            <img src="images/look-camiseta-cinza-720.webp" srcset="images/look-camiseta-cinza-400.webp 400w, images/look-camiseta-cinza-720.webp 720w" sizes="(min-width: 960px) 19vw, 46vw" width="720" height="1310" loading="lazy" alt="Modelo vestindo camiseta cinza Luminous, bermuda jeans com rasgos e chinelo slide preto">
             <p class="look__title">Camiseta Luminous &amp; bermuda jeans</p>
           </li>
         </ul>
